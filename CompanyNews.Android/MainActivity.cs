@@ -25,7 +25,7 @@ namespace CompanyNews.Droid
 
             // APPCENTER
             //AppCenter.Start("<app secret goes here>",
-            //       typeof(Analytics), typeof(Crashes), typeof(Push), typeof(Distribute));
+            //       typeof(Analytics), typeof(Crashes), typeof(Distribute));
 
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
             FFImageLoading.Forms.Platform.CachedImageRenderer.InitImageViewHandler();
