@@ -72,7 +72,7 @@ namespace CompanyNews
                       };
 
             // APPCENTER
-            // Analytics.TrackEvent("News Item Selected", properties);
+            Analytics.TrackEvent("News Item Selected", properties);
         }
 
         void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
@@ -98,7 +98,7 @@ namespace CompanyNews
                       };
 
                     // APPCENTER
-                    // Crashes.TrackError(ex, properties);
+                    Crashes.TrackError(ex, properties);
                     return;
                 }
             }
